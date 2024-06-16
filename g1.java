@@ -1,4 +1,8 @@
-/* JRE System Library [JavaSE-22] */
+/* 
+JRE System Library [JavaSE-22] 
+Вариант B
+Задания: 1-7
+*/
 
 package ch1;
 
