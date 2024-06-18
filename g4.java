@@ -38,8 +38,9 @@ public class g4 {
 	
 }
 
-//Components
+				//Components
 
+/* - STAR - */
 class Star{
 	
 	private String name;
@@ -73,6 +74,7 @@ class Star{
 	
 }
 
+/* - SATELLITE - */
 class Satellite{
 
 	private String name, owner;
@@ -110,6 +112,7 @@ class Satellite{
 	
 }
 
+/* - PLANET - */
 class Planet{
 	
 	private String name;
@@ -171,8 +174,9 @@ class Planet{
 	
 }
 
-//Rezult class
+				//Rezult class
 
+/* - STAR_SYSTEM - */
 class Star_system{
 	
 	private Star star;
