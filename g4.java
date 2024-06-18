@@ -31,6 +31,7 @@ public class g4 {
 					x.add_planet();
 					break;
 				default:
+					in.close();
 					return;
 			}
 		}
