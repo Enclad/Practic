@@ -96,6 +96,7 @@ public class g5 {
 				}
 				break;
 			default:
+				in.close();
 				return;
 			}
 		}
