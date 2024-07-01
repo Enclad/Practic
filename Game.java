@@ -25,11 +25,11 @@ import java.net.*;
 import java.util.*;
 
 public class Game {
-	static String VERSION = "0.4";
+	static String VERSION = "0.5";
 	
 	static final char BLACK = '○'; 	// Первый игрок
 	static final char WHITE = '●'; 	// Второй игрок
-	static final String SYMS = " " + BLACK + WHITE + "?";
+	static final String SYMS = "+" + BLACK + WHITE + "?";
 	static final String ALPH = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
 	
 	static final int GAME_PORT = 60000;
@@ -75,7 +75,7 @@ public class Game {
 		System.out.print("Введите координаты свободной ячейки в формате \"А 0\"\n:");
 		x = (short)ALPH.indexOf(scanner.next());
 		y = scanner.nextShort();
-		if (x == -1 || y < 1 || y > SIZE || desk[y][x] != 0) {
+		if (x == -1 || y < 1 || y > SIZE || desk[y - 1][x] != 0) {
 			dos.writeUTF("- 0");
 			dos.flush();
 			return false; //Камень не установлен - игрок сдался
@@ -319,6 +319,7 @@ public class Game {
 				System.out.println("Введите id первого игрока в том же виде, как он (id) записан у него:");
 				address_str = scanner.next();
 				client = new Socket(InetAddress.getByName(address_str), GAME_PORT);
+				System.err.println(" Игра найдена");
 			}
 			else {
 				System.err.println("Неккоректный ввод => выход");
