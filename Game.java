@@ -25,7 +25,7 @@ import java.net.*;
 import java.util.*;
 
 public class Game {
-	static String VERSION = "0.2";
+	static String VERSION = "0.4";
 	
 	static final char BLACK = '○'; 	// Первый игрок
 	static final char WHITE = '●'; 	// Второй игрок
