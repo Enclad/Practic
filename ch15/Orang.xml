@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="transform.xsl"?>
+<flowers>
+   	<flower>
+		<name>Роза</name>
+		<soil>дерново-подзолистая</soil>
+		<origin>Россия</origin>
+		<visual_parameters>
+			<color_stick>коричневый</color_stick>
+			<color_paper>зеленый</color_paper>
+			<average_size>7.62см</average_size>
+		</visual_parameters>
+		<growing_tips>
+			<temperature>20</temperature>
+			<light>светолюбиво</light>
+			<wosher>2400</wosher>
+		</growing_tips>
+		<multiplying>черенками</multiplying>
+	</flower>
+	
+	<flower>
+		<name>Лепесток</name>
+		<soil>грунтовая</soil>
+		<origin>Россия</origin>
+		<visual_parameters>
+			<color_stick>зеленый</color_stick>
+			<color_paper>зеленый</color_paper>
+			<average_size>10</average_size>
+		</visual_parameters>
+		<growing_tips>
+			<temperature>10</temperature>
+			<light>не светолюбиво</light>
+			<wosher>14000</wosher>
+		</growing_tips>
+		<multiplying>листьями</multiplying>
+	</flower>
+	
+	<flower>
+		<name>Инжир</name>
+		<soil>подзолистая</soil>
+		<origin>Россия</origin>
+		<visual_parameters>
+			<color_stick>коричневый</color_stick>
+			<color_paper>зеленый</color_paper>
+			<average_size>5</average_size>
+		</visual_parameters>
+		<growing_tips>
+			<temperature>30</temperature>
+			<light>светолюбиво</light>
+			<wosher>140000</wosher>
+		</growing_tips>
+		<multiplying>семенами</multiplying>
+	</flower>
+</flowers>
